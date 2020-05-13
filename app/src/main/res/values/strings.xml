@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Onboarding Sample</string>
+    <string name="onboarding_bar_title">Order drinks</string>
+    <string name="onboarding_bar_description">Order drinks in your application and pickup them in bar</string>
+    <string name="onboarding_island_title">Buy your own island</string>
+    <string name="onboarding_island_description">Using our app you can buy your own island!</string>
+    <string name="onboarding_compass_title">Navigation</string>
+    <string name="onboarding_compass_description">Use application compass to navigation</string>
+    <string name="onboarding_tickets_description">Buy tickets to cinema, theatre and public events!</string>
+    <string name="onboarding_tickets_title">Tickets</string>
+</resources>
