@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Transition
-    app:constraintSetEnd="@id/end"
-    app:constraintSetStart="@id/start"
-    app:motionInterpolator="easeInOut"></Transition>
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@id/start"
+        app:motionInterpolator="easeInOut" />
 
 
     <ConstraintSet android:id="@+id/start">
@@ -33,9 +33,9 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            app:layout_constraintTop_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
