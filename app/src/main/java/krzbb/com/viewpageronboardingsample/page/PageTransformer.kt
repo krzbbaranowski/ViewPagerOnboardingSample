@@ -18,15 +18,16 @@ class Transformer : ViewPager2.PageTransformer
         {
             page.findViewById<View>(R.id.onboarding_page_image).scaleX = getScale(position)
             page.findViewById<View>(R.id.onboarding_page_image).scaleY = getScale(position)
-        }else if (position >= -1 && position <= 1)
+        }
+
+        if (position >= -1 && position <= 1)
         {
             page.findViewById<View>(R.id.onboarding_page_title).translationX = position * page.width / 2
             page.findViewById<View>(R.id.onboarding_page_description).translationX = position * page.width / 5
 
             page.findViewById<View>(R.id.onboarding_page_title).alpha = 1f - position
             page.findViewById<View>(R.id.onboarding_page_description).alpha = 1f - position
-        } else
-        {
+        } else {
             page.alpha = position * 1.2f
         }
     }
